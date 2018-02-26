@@ -1,0 +1,39 @@
+<style>
+  .color{
+    color:white;
+  }
+   form{
+    color:white;
+  }
+ input[type=text],[type=password],[type=email]{
+ width:95%;
+ margin-left:5px;
+height:30px;
+}
+
+  .center{
+    text-align:center;
+  }
+  .button{
+    width:100%;
+    background-color:blue;
+    border:none;
+    font-size:18px;
+    border-radius:2px;
+   cursor:pointer;
+  }
+  h1{
+    background-color:#333333;
+    color:white;
+    font-family:sans-serif;
+  }
+ .container{
+    width:35%;
+    background-color:#3D3D40;
+    margin:auto;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+</style>
