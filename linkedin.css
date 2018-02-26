@@ -30,6 +30,7 @@ height:30px;
  .container{
     width:400px;
     background-color:#3D3D40;
+   margin:auto;
 }
 a{
   color:white;
