@@ -28,9 +28,10 @@ height:30px;
     font-family:sans-serif;
   }
  .container{
-    width:400px;
+    width:100%;
+    max-width:400px;
     background-color:#3D3D40;
-   margin:auto;
+    margin:auto;
 }
 a{
   color:white;
