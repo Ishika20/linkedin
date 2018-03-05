@@ -39,7 +39,7 @@ btn.addEventListener("click" , function(){
 		 var td1 = tr[i].getElementsByTagName("td")[0];
 		 var td2 = tr[i].getElementsByTagName("td")[1];
 		 if(td1+td2){
-			 if((td1.innerHTML.toUpperCase().indexOf(state)+td1.innerHTML.toUpperCase().indexOf(state))>-2)
+			 if((td1.innerHTML.toUpperCase().indexOf(state)+td2.innerHTML.toUpperCase().indexOf(state))>-2)
 				{	
          			count++;
 			        tr[i].style.display = "";
