@@ -14,12 +14,15 @@
 	th,tr,td,table{
 	  border:1px solid black;
 	  padding:10px;
+	  font-family:courier new;
 	 }
 	.heading{
 	  padding-top:5px;
+	  font-family:courier new;
 	  }
 	.foot{
 	   padding-bottom:5px;
+	   font-family:courier new;
 	   }
 	#btn{
 	   background-color: black;
@@ -29,12 +32,14 @@
            text-align: center;
            text-decoration: bold;
            font-size: 16px;
+	   font-family:courier new;
    }
    input{
        width: 150px;
        padding: 10px 10px;
        box-sizing: border-box;
-       margin:auto:
+       margin:auto;
+       font-family:courier new;
 	 }
     body{
 	background-color:#404040;
