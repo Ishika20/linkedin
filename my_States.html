@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name = "viewport" content = "width=device-width" initial-scale = "1" />
+ <title>JSON and AJAX</title>
+ <!--<link rel = "stylesheet" type ="text/css" href = "css/styles.css">-->
+ <style>
+    .container{
+	    text-align:center;
+		background-color:yellow;
+		margin:auto;
+		width:100%;
+		max-width:400px;
+		}
+	#stateTable{
+	   border-collapse:collapse;
+	   width:100%
+	   text-align:center;
+	   margin:auto;
+	}
+	th,tr,td,table{
+	  border:1px solid black;
+	  padding:10px;
+	 }
+	.heading{
+	  padding-top:5px;
+	  }
+	.foot{
+	   padding-bottom:5px;
+	   }
+	#btn{
+	   background-color: white /* Green */
+       border-radius: 4px;
+       color: black;
+       padding: 10px 20px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+   }
+   input{
+       width: 150px;
+       padding: 10px 15px;
+       margin: 8px 0;
+       box-sizing: border-box;
+	   margin:auto:
+	   }
+     
+ </style>
+</head>
+<body>
+   <div class="container">
+     <div class="heading">
+      <h1>States and their capitals</h1>
+	 </div> 
+	  <br>
+      <button id="btn" type = "button"> Get_data </button>
+      <br><br>
+      <input id = "myInput" onkeyup = "searchState()" type = "text" placeholder = "Search your state">
+      <br><br>
+      <table id = "stateTable">
+         <tr>
+           <th>State</th>
+           <th>Capital</th>
+         </tr>
+      </table>
+	  <div class="foot">
+    <h3>No. of states:</h3><h3 id = "count"></h3>
+	  </div>
+    </div>
+    <script src="js_state.js"></script>
+</body>
+</html> 
