@@ -1,4 +1,4 @@
-var data = document.getElementById("stateTable");
+var getData = document.getElementById("stateTable");
 var btn = document.getElementById("btn");
 document.getElementById("count").innerHTML = 0;
 document.getElementById("myInput").style.display = 'none';
@@ -25,7 +25,7 @@ btn.addEventListener("click" , function(){
 		document.getElementById("btn").style.display = 'none';
 		document.getElementById("myInput").style.display = 'block';
 	}
-	data.insertAdjacentHTML('beforeend' , myString);
+	getData.insertAdjacentHTML('beforeend' , myString);
  }
  
  function searchState(){
