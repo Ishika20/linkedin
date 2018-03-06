@@ -1,0 +1,54 @@
+[
+	{
+		"Name":"abha",
+		"Gender":"female",
+		"address":"Raipur",
+	},
+	{
+		"Name":"abhishek",
+		"Gender":"male",
+		"address":"bhilai",
+	},
+	{
+		"Name":"aditya",
+		"Gender":"male",
+		"address":"patan",
+	},
+	{
+		"Name":"akash",
+		"Gender":"male",
+		"address":"rjn",
+	},	
+	{
+		"Name":"aman",
+		"Gender":"male",
+		"address":"bhilai",
+	},
+	
+	{
+		"Name":"amrita",
+		"Gender":"female",
+		"address":"korba",
+	},
+	{
+		
+		"Name":"aniket",
+		"Gender":"male",
+		"address":"jaipur",
+	},
+	{
+		"Name":"ashly",
+		"Gender":"male",
+		"address":"jabalpur",
+	},
+   	{
+		"Name":"ayush",
+		"Gender":"male",
+		"address":"bilaspur",
+	},
+	{
+		"Name":"bhavesh",
+		"Gender":"male",
+		"address":"durg",
+	},
+]
