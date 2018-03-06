@@ -31,7 +31,6 @@
 		"address":"korba",
 	},
 	{
-		
 		"Name":"aniket",
 		"Gender":"male",
 		"address":"jaipur",
@@ -50,5 +49,5 @@
 		"Name":"bhavesh",
 		"Gender":"male",
 		"address":"durg",
-	},
+	}
 ]
