@@ -11,14 +11,14 @@ function myFunction(){
         renderHTML(myObj);			
 	  }			
    };
-   req.open('GET','https://akashchourasia.github.io/linkedin/student.json');
+   req.open('GET','https://ishika20.github.io/linkedin/states.json');
    req.send();
 }
 function renderHTML(myObj){
 	var htmlstring = "";
 	var i;
 	for(i=0; i < myObj.length; i++){
-			htmlstring += "<tr><td>" + myObj[i].Name + "</td><td>" + myObj[i].Gender + "</td><td>" + myObj[i].address + "</td></tr>";
+		htmlstring += "<tr><td>" + myObj[i].Name + "</td><td>" + myObj[i].Gender + "</td><td>" + myObj[i].address + "</td></tr>";
 		
 	}
     if(i == myObj.length){
