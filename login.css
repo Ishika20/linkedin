@@ -1,0 +1,52 @@
+    .container1{
+        text-align:center;
+		margin:auto;
+		width:100%;
+		max-width:400px;
+		}
+    .container2{
+         text-align:center;
+         margin:auto;
+         width:100%;
+		 max-width:300px;
+		 border:1px solid black;
+		}
+    .image1{
+	    width:200px;
+	    height:70px
+	  }
+    .image2{
+	    width:100px;
+	    height:80px;
+	  }
+	input[type=password],[type=email]{
+	    width:88%;
+	    padding:5px;
+	  }
+	.foot{
+	    padding-bottom:25px;
+	   }
+	.btn{
+	    width:88%;
+        background-color:blue;
+        border:none;
+		color:white;
+        font-size:22px;
+        border-radius:2px;
+        cursor:pointer;
+        margin-left:10px;
+		margin-right:10px;
+	   }
+	input[type=checkbox] {
+       float:left;
+	   margin-left:20px;
+    }
+	#sp_id{
+	   margin-left:70px;
+	}
+	 a{
+	  text-decoration: none;
+	  }
+	  body{
+	   font-family:Times New Roman;
+	   }
