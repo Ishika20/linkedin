@@ -1,23 +1,31 @@
-<html lang="en">
-  <head>
-    <meta name="google-signin-scope" content="profile email">
+<!DOCTYPE>
+<html>
+<head>
+<title>
+Google Login
+</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta name="google-signin-client_id" content="366783679632-luarsc9ashn7s53q97a6m8hgqnunk6pa.apps.googleusercontent.com">
-    <meta name="google-site-verification" content="2Yb42FRCc9jaTCSVH9ztMKKu5jhxg3qledXC1h3YHfY" />
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-  </head>
-  <body>
-    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-    <script>
-      function onSignIn(googleUser) {
-        // Useful data for your client-side scripts:
-        var profile = googleUser.getBasicProfile();
-        console.log("Image URL: " + profile.getImageUrl());
-        console.log("Email: " + profile.getEmail());
-
-        // The ID token you need to pass to your backend:
-        var id_token = googleUser.getAuthResponse().id_token;
-        console.log("ID Token: " + id_token);
-      };
-    </script>
-  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "login.js"></script>
+<style>
+ .g-signin2{
+    margin-left:500px;
+	margin-top:200px;
+	}
+  .data{
+    display:none;
+  }
+</head>
+<body>
+  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+  <div class = "data">
+    <p>profile details</p>
+	<img id = "pic" class = "img-circle" width = "100px" height = "100px"/>
+	<p> Email address.</p>
+	<p id = "email" class = "alert alert-danger"></p>
+	<button onclick = "signout()" class = "btn btn-danger">SignOut</button>
+  </div>
+</body>
 </html>
